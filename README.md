@@ -46,7 +46,7 @@ Below are the default keybindings for OrigamiVSC.
 ![](keys.png)
 
 ## Special Thanks
-Thanks to the [Sublime Text team](https://github.com/SublimeText) for maintaining the Origami repository and [geddski](https://github.com/geddski) for developing Macros VS Code extension for making such awesome software. 
+Thanks to the [Sublime Text team](https://github.com/SublimeText) for maintaining the Origami repository and [geddski](https://github.com/geddski) for developing the Macros for VS Code extension. 
 
 Finally thanks to [Alex on Unsplash](https://unsplash.com/@worthyofelegance) who took the Origami picture.
 
