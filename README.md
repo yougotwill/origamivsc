@@ -1,6 +1,6 @@
 # OrigamiVSC
 
-Like [Origami](https://github.com/SublimeText/Origami) but for VS Code.
+Like [Origami](https://github.com/SublimeText/Origami) for Sublime Text but for VS Code.
 
 **DISCLAIMER**
 
