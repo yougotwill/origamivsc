@@ -1,0 +1,95 @@
+[
+    // Keybindings for OrigamiVSC v0.1
+    {
+        "key": "cmd+\\",
+        "command": "macros.origamivsc-createPane"
+    },
+    {
+        "key": "cmd+k cmd+down",
+        "command": "macros.origamivsc-createPaneDown"
+    },
+    {
+        "key": "cmd+k cmd+left",
+        "command": "macros.origamivsc-createPaneLeft"
+    },
+    {
+        "key": "cmd+k cmd+right",
+        "command": "macros.origamivsc-createPaneRight"
+    },
+    {
+        "key": "cmd+k cmd+up",
+        "command": "macros.origamivsc-createPaneUp"
+    },
+    {
+        "key": "cmd+k cmd+w",
+        "command": "macros.origamivsc-destroyPane"
+    },
+    {
+        "key": "cmd+k shift+up",
+        "command": "macros.origamivsc-carryToPaneUp"
+    },
+    {
+        "key": "cmd+k shift+down",
+        "command": "macros.origamivsc-carryToPaneDown"
+    },
+    {
+        "key": "cmd+k shift+left",
+        "command": "macros.origamivsc-carryToPaneLeft"
+    },
+    {
+        "key": "cmd+k shift+right",
+        "command": "macros.origamivsc-carryToPaneRight"
+    },
+    {
+        "key": "cmd+k down",
+        "command": "macros.origamivsc-focusPaneDown"
+    },
+    {
+        "key": "cmd+k left",
+        "command": "macros.origamivsc-focusPaneLeft"
+    },
+    {
+        "key": "cmd+k right",
+        "command": "macros.origamivsc-focusPaneRight"
+    },
+    {
+        "key": "cmd+k up",
+        "command": "macros.origamivsc-focusPaneUp"
+    },
+    {
+        "key": "cmd+k alt+down",
+        "command": "macros.origamivsc-destroyPaneDown"
+    },
+    {
+        "key": "cmd+k alt+left",
+        "command": "macros.origamivsc-destroyPaneLeft"
+    },
+    {
+        "key": "cmd+k alt+right",
+        "command": "macros.origamivsc-destroyPaneRight"
+    },
+    {
+        "key": "cmd+k alt+up",
+        "command": "macros.origamivsc-destroyPaneUp"
+    },
+    {
+        "key": "cmd+k cmd+z",
+        "command": "macros.origamivsc-zoomPane"
+    },
+    {
+        "key": "cmd+k shift+cmd+z",
+        "command": "macros.origamivsc-unzoomPane"
+    },
+    {
+        "key": "cmd+k cmd+=",
+        "command": "macros.origamivsc-increasePaneSize"
+    },
+    {
+        "key": "cmd+k cmd+-",
+        "command": "macros.origamivsc-decreasePaneSize"
+    },
+    {
+        "key": "cmd+k cmd+o",
+        "command": "macros.origamivsc-flipPaneOrientation"
+    }
+]

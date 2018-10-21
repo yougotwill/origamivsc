@@ -1,0 +1,131 @@
+{
+  // ************************************************************
+  // OrigamiVSC v 0.1
+  // DISCLAIMER: Use at your own risk. 
+
+  // Settings
+  // set workbench.editor.closeEmptyGroups to false if you want to create
+  // empty panes otherwise the origami-createPane command won't work.
+  // If set to false then you will then have to close panes manually
+  // using the origami-destroyPane command
+
+  // "workbench.editor.closeEmptyGroups": false,
+
+  // Commands
+  "macros": {   
+      // *****************************************
+      // create a pane
+      // *****************************************
+      "origamivsc-createPane": [
+          "workbench.action.splitEditor",
+          "workbench.action.moveEditorToPreviousGroup"
+      ],
+      "origamivsc-createPaneUp": [
+          "workbench.action.splitEditorUp",
+          "workbench.action.moveEditorToBelowGroup",
+          "workbench.action.focusPreviousGroup"
+      ],
+      "origamivsc-createPaneDown": [
+          "workbench.action.splitEditorDown",
+          "workbench.action.moveEditorToAboveGroup",
+          "workbench.action.focusPreviousGroup"
+      ],
+      "origamivsc-createPaneLeft": [
+          "workbench.action.splitEditorLeft",
+          "workbench.action.moveEditorToRightGroup",
+          "workbench.action.focusPreviousGroup"
+      ],
+      "origamivsc-createPaneRight": [
+          "workbench.action.splitEditorRight",
+          "workbench.action.moveEditorToLeftGroup",
+          "workbench.action.focusPreviousGroup"
+      ],
+      // *****************************************
+      // destroy a pane
+      // *****************************************
+      "origamivsc-destroyPane": [
+          "workbench.action.closeEditorsAndGroup",
+          // "workbench.action.focusPreviousGroup"
+      ],
+      // DO NOT USE THE FOLLOWING MACROS
+      // NOTE: This should work but the delete operation happens before the // focus is moved to the correct group for some reason
+      // "origamivsc-destroyPaneUp": [
+      //     "workbench.action.focusAboveGroup",
+      //     "workbench.action.closeEditorsAndGroup",
+      //     "workbench.action.focusPreviousGroup"
+      // ],
+      // "origamivsc-destroyPaneDown": [
+      //     "workbench.action.focusBelowGroup",
+      //     "workbench.action.closeEditorsAndGroup",
+      //     "workbench.action.focusPreviousGroup"
+      // ],
+      // "origamivsc-destroyPaneLeft": [
+      //     "workbench.action.focusLeftGroup",
+      //     "workbench.action.closeEditorsAndGroup",
+      //     "workbench.action.focusPreviousGroup"
+      // ],
+      // "origamivsc-destroyPaneRight": [
+      //     "workbench.action.focusRightGroup",
+      //     "workbench.action.closeEditorsAndGroup",
+      //     "workbench.action.focusPreviousGroup"
+      // ],
+      // *****************************************
+      // focus on a pane
+      // *****************************************
+      "origamivsc-focusPaneUp": [
+          "workbench.action.focusAboveGroup"
+      ],
+      "origamivsc-focusPaneDown": [
+          "workbench.action.focusBelowGroup"
+      ],
+      "origamivsc-focusPaneLeft": [
+          "workbench.action.focusLeftGroup"
+      ],
+      "origamivsc-focusPaneRight": [
+          "workbench.action.focusRightGroup"
+      ],
+      // *****************************************
+      // move files to a different pane
+      // *****************************************
+      "origamivsc-carryToPaneUp": [
+          "workbench.action.moveEditorToAboveGroup"
+      ],
+      "origamivsc-carryToPaneDown": [
+          "workbench.action.moveEditorToBelowGroup"
+      ],
+      "origamivsc-carryToPaneLeft": [
+          "workbench.action.moveEditorToLeftGroup"
+      ],
+      "origamivsc-carryToPaneRight": [
+          "workbench.action.moveEditorToRightGroup"
+      ],
+      // *****************************************
+      // increase/decrease the size of a pane
+      // NOTE: The pane size only changes in one direction.
+      // This is based on the editor group layout being set to horizontal or
+      // vertical.
+      // You can set this through the origamivsc-flipPaneOrientation command
+      // WARNING: Changing the editor group layout will rearrange your panes.
+      // *****************************************
+      "origamivsc-increasePaneSize": [
+          "workbench.action.increaseViewSize"
+      ],
+      "origamivsc-decreasePaneSize": [
+          "workbench.action.decreaseViewSize"
+      ],
+      "origamivsc-flipPaneOrientation": [
+          "workbench.action.toggleEditorGroupLayout"
+      ],
+      // *****************************************
+      // zoom (maximize) a pane
+      // NOTE: unzooming a pane will reset all pane widths & heights
+      // *****************************************
+      "origamivsc-zoomPane": [
+          "workbench.action.minimizeOtherEditors"
+      ],
+      "origamivsc-unzoomPane" : [
+          "workbench.action.evenEditorWidths"
+      ]
+      // ************************************************************
+  },
+}
