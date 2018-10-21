@@ -5,7 +5,7 @@
 
   // Settings
   // set workbench.editor.closeEmptyGroups to false if you want to create
-  // empty panes otherwise the origami-createPane command won't work.
+  // empty panes otherwise the origamivsc-createPane command won't work.
   // If set to false then you will then have to close panes manually
   // using the origami-destroyPane command
 
