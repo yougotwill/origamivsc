@@ -20,8 +20,12 @@ I'm hoping that someone will take notice of this and build a proper extension. ð
 
 # Please Note
 1. I have only tested this on macOS.
-2. You will only be able to create empty panes if you set the `workbench.editor.closeEmptyGroups` setting to `false`  otherwise the `origamivsc-createPane` command won't work.
-3. If the above is set to `false` then you will then have to close panes manually using the `origami-destroyPane` command.
+2. You will only be able to create empty panes if you set `workbench.editor.closeEmptyGroups` to `false` in your settings.json otherwise the `createPane` command won't work.
+3. If the above is set to `false` then you will then have to close panes manually using the `destroyPane` command.
+4. You can only destroy the currently selected pane used the `destroyPane` command and not any noncurrent panes because focusing on an editor group in VS Code is slower than closing an editor group for some reason...
+5. Pane resizing only changes in one direction (**width OR height** NOT **width AND height**). This is based on the editor group layout being set to horizontal or vertical. You can set this through the `flipPaneOrientation` command. Be warned that changing the editor group layout will rearrange your existing panes.
+6. Last but not least, unzooming a pane will reset the widths & heights of **all** panes. (I did tell you that this is hacky)
+
 
 ## Features
 - [x] Creating Panes

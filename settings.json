@@ -4,11 +4,6 @@
   // DISCLAIMER: Use at your own risk. 
 
   // Settings
-  // set workbench.editor.closeEmptyGroups to false if you want to create
-  // empty panes otherwise the origamivsc-createPane command won't work.
-  // If set to false then you will then have to close panes manually
-  // using the origami-destroyPane command
-
   // "workbench.editor.closeEmptyGroups": false,
 
   // Commands
@@ -47,8 +42,6 @@
           "workbench.action.closeEditorsAndGroup",
           // "workbench.action.focusPreviousGroup"
       ],
-      // DO NOT USE THE FOLLOWING MACROS
-      // NOTE: This should work but the delete operation happens before the // focus is moved to the correct group for some reason
       // "origamivsc-destroyPaneUp": [
       //     "workbench.action.focusAboveGroup",
       //     "workbench.action.closeEditorsAndGroup",
@@ -101,11 +94,6 @@
       ],
       // *****************************************
       // increase/decrease the size of a pane
-      // NOTE: The pane size only changes in one direction.
-      // This is based on the editor group layout being set to horizontal or
-      // vertical.
-      // You can set this through the origamivsc-flipPaneOrientation command
-      // WARNING: Changing the editor group layout will rearrange your panes.
       // *****************************************
       "origamivsc-increasePaneSize": [
           "workbench.action.increaseViewSize"
@@ -118,7 +106,6 @@
       ],
       // *****************************************
       // zoom (maximize) a pane
-      // NOTE: unzooming a pane will reset all pane widths & heights
       // *****************************************
       "origamivsc-zoomPane": [
           "workbench.action.minimizeOtherEditors"
