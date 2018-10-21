@@ -2,6 +2,8 @@
 
 Like [Origami for Sublime Text](https://github.com/SublimeText/Origami) but for VS Code.
 
+![](origami.jpg)
+
 **DISCLAIMER**
 
 This is **not** an extension. It is also nowhere near as complex as Origami and is a basic solution that fits my own needs.
@@ -13,7 +15,7 @@ I also don't take responsibility for any chaos on your machine thanks to this ha
 I'm hoping that someone will take notice of this and build a proper extension. 🙏
 
 ## How to install
-1. Install the [macros](https://github.com/geddski/macros) VS Code extension by going [here](https://marketplace.visualstudio.com/items?itemName=geddski.macros).
+1. Install the [Macros](https://github.com/geddski/macros) VS Code extension by going [here](https://marketplace.visualstudio.com/items?itemName=geddski.macros).
 2. Copy the contents of this [keybindings.json](keybindings.json) to your keybindings.json.
 3. Copy the contents of this [settings.json](settings.json) to your settings.json.
 4. Done 🎉
@@ -44,7 +46,9 @@ Below are the default keybindings for OrigamiVSC.
 ![](keys.png)
 
 ## Special Thanks
-Thanks to the creators of both Origami and the macros VS Code extension for making such awesome software.
+Thanks to the [Sublime Text team](https://github.com/SublimeText) for maintaining the Origami repository and [geddski](https://github.com/geddski) for developing Macros VS Code extension for making such awesome software. 
+
+Finally thanks to [Alex on Unsplash](https://unsplash.com/@worthyofelegance) who took the Origami picture.
 
 ## Resources that helped me put this together
 - https://github.com/Microsoft/vscode/issues/2755
