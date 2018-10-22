@@ -1,118 +1,95 @@
 {
   // ************************************************************
   // OrigamiVSC v 0.1
-  // DISCLAIMER: Use at your own risk. 
+  // DISCLAIMER: Use at your own risk.
 
   // Settings
   // "workbench.editor.closeEmptyGroups": false,
 
   // Commands
-  "macros": {   
-      // *****************************************
-      // create a pane
-      // *****************************************
-      "origamivsc-createPane": [
-          "workbench.action.splitEditor",
-          "workbench.action.moveEditorToPreviousGroup"
-      ],
-      "origamivsc-createPaneUp": [
-          "workbench.action.splitEditorUp",
-          "workbench.action.moveEditorToBelowGroup",
-          "workbench.action.focusPreviousGroup"
-      ],
-      "origamivsc-createPaneDown": [
-          "workbench.action.splitEditorDown",
-          "workbench.action.moveEditorToAboveGroup",
-          "workbench.action.focusPreviousGroup"
-      ],
-      "origamivsc-createPaneLeft": [
-          "workbench.action.splitEditorLeft",
-          "workbench.action.moveEditorToRightGroup",
-          "workbench.action.focusPreviousGroup"
-      ],
-      "origamivsc-createPaneRight": [
-          "workbench.action.splitEditorRight",
-          "workbench.action.moveEditorToLeftGroup",
-          "workbench.action.focusPreviousGroup"
-      ],
-      // *****************************************
-      // destroy a pane
-      // *****************************************
-      "origamivsc-destroyPane": [
-          "workbench.action.closeEditorsAndGroup",
-          // "workbench.action.focusPreviousGroup"
-      ],
-      // "origamivsc-destroyPaneUp": [
-      //     "workbench.action.focusAboveGroup",
-      //     "workbench.action.closeEditorsAndGroup",
-      //     "workbench.action.focusPreviousGroup"
-      // ],
-      // "origamivsc-destroyPaneDown": [
-      //     "workbench.action.focusBelowGroup",
-      //     "workbench.action.closeEditorsAndGroup",
-      //     "workbench.action.focusPreviousGroup"
-      // ],
-      // "origamivsc-destroyPaneLeft": [
-      //     "workbench.action.focusLeftGroup",
-      //     "workbench.action.closeEditorsAndGroup",
-      //     "workbench.action.focusPreviousGroup"
-      // ],
-      // "origamivsc-destroyPaneRight": [
-      //     "workbench.action.focusRightGroup",
-      //     "workbench.action.closeEditorsAndGroup",
-      //     "workbench.action.focusPreviousGroup"
-      // ],
-      // *****************************************
-      // focus on a pane
-      // *****************************************
-      "origamivsc-focusPaneUp": [
-          "workbench.action.focusAboveGroup"
-      ],
-      "origamivsc-focusPaneDown": [
-          "workbench.action.focusBelowGroup"
-      ],
-      "origamivsc-focusPaneLeft": [
-          "workbench.action.focusLeftGroup"
-      ],
-      "origamivsc-focusPaneRight": [
-          "workbench.action.focusRightGroup"
-      ],
-      // *****************************************
-      // move files to a different pane
-      // *****************************************
-      "origamivsc-carryToPaneUp": [
-          "workbench.action.moveEditorToAboveGroup"
-      ],
-      "origamivsc-carryToPaneDown": [
-          "workbench.action.moveEditorToBelowGroup"
-      ],
-      "origamivsc-carryToPaneLeft": [
-          "workbench.action.moveEditorToLeftGroup"
-      ],
-      "origamivsc-carryToPaneRight": [
-          "workbench.action.moveEditorToRightGroup"
-      ],
-      // *****************************************
-      // increase/decrease the size of a pane
-      // *****************************************
-      "origamivsc-increasePaneSize": [
-          "workbench.action.increaseViewSize"
-      ],
-      "origamivsc-decreasePaneSize": [
-          "workbench.action.decreaseViewSize"
-      ],
-      "origamivsc-flipPaneOrientation": [
-          "workbench.action.toggleEditorGroupLayout"
-      ],
-      // *****************************************
-      // zoom (maximize) a pane
-      // *****************************************
-      "origamivsc-zoomPane": [
-          "workbench.action.minimizeOtherEditors"
-      ],
-      "origamivsc-unzoomPane" : [
-          "workbench.action.evenEditorWidths"
-      ]
-      // ************************************************************
-  },
+  "macros": {
+    // *****************************************
+    // create a pane
+    // *****************************************
+    "origamivsc-createPane": [
+      "workbench.action.splitEditor",
+      "workbench.action.moveEditorToPreviousGroup",
+      "workbench.action.focusPreviousGroup"
+    ],
+    "origamivsc-createPaneUp": [
+      "workbench.action.splitEditorUp",
+      "workbench.action.moveEditorToBelowGroup",
+      "workbench.action.focusAboveGroup"
+    ],
+    "origamivsc-createPaneDown": [
+      "workbench.action.splitEditorDown",
+      "workbench.action.moveEditorToAboveGroup",
+      "workbench.action.focusBelowGroup"
+    ],
+    "origamivsc-createPaneLeft": [
+      "workbench.action.splitEditorLeft",
+      "workbench.action.moveEditorToRightGroup",
+      "workbench.action.focusLeftGroup"
+    ],
+    "origamivsc-createPaneRight": [
+      "workbench.action.splitEditorRight",
+      "workbench.action.moveEditorToLeftGroup",
+      "workbench.action.focusRightGroup"
+    ],
+    // *****************************************
+    // destroy a pane
+    // *****************************************
+    "origamivsc-destroyPane": [
+      "workbench.action.closeEditorsAndGroup"
+      // "workbench.action.focusPreviousGroup"
+    ],
+    // "origamivsc-destroyPaneUp": [
+    //     "workbench.action.focusAboveGroup",
+    //     "workbench.action.closeEditorsAndGroup",
+    //     "workbench.action.focusPreviousGroup"
+    // ],
+    // "origamivsc-destroyPaneDown": [
+    //     "workbench.action.focusBelowGroup",
+    //     "workbench.action.closeEditorsAndGroup",
+    //     "workbench.action.focusPreviousGroup"
+    // ],
+    // "origamivsc-destroyPaneLeft": [
+    //     "workbench.action.focusLeftGroup",
+    //     "workbench.action.closeEditorsAndGroup",
+    //     "workbench.action.focusPreviousGroup"
+    // ],
+    // "origamivsc-destroyPaneRight": [
+    //     "workbench.action.focusRightGroup",
+    //     "workbench.action.closeEditorsAndGroup",
+    //     "workbench.action.focusPreviousGroup"
+    // ],
+    // *****************************************
+    // focus on a pane
+    // *****************************************
+    "origamivsc-focusPaneUp": ["workbench.action.focusAboveGroup"],
+    "origamivsc-focusPaneDown": ["workbench.action.focusBelowGroup"],
+    "origamivsc-focusPaneLeft": ["workbench.action.focusLeftGroup"],
+    "origamivsc-focusPaneRight": ["workbench.action.focusRightGroup"],
+    // *****************************************
+    // move files to a different pane
+    // *****************************************
+    "origamivsc-carryToPaneUp": ["workbench.action.moveEditorToAboveGroup"],
+    "origamivsc-carryToPaneDown": ["workbench.action.moveEditorToBelowGroup"],
+    "origamivsc-carryToPaneLeft": ["workbench.action.moveEditorToLeftGroup"],
+    "origamivsc-carryToPaneRight": ["workbench.action.moveEditorToRightGroup"],
+    // *****************************************
+    // increase/decrease the size of a pane
+    // *****************************************
+    "origamivsc-increasePaneSize": ["workbench.action.increaseViewSize"],
+    "origamivsc-decreasePaneSize": ["workbench.action.decreaseViewSize"],
+    "origamivsc-flipPaneOrientation": [
+      "workbench.action.toggleEditorGroupLayout"
+    ],
+    // *****************************************
+    // zoom (maximize) a pane
+    // *****************************************
+    "origamivsc-zoomPane": ["workbench.action.minimizeOtherEditors"],
+    "origamivsc-unzoomPane": ["workbench.action.evenEditorWidths"]
+    // ************************************************************
+  }
 }
